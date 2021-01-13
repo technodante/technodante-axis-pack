@@ -71,9 +71,9 @@ FuelTankSize 6000
 Pilot 17 39 0
 Passengers 0
 // ------------------------------------------------------ Sounds ------------------------------------------------------
-StartSound FighterStart
+StartSound DBstart
 StartSoundLength 22
-PropSound FighterEngine
+PropSound DBengine
 PropSoundLength 30
 ShootSoundPrimary AxisBrowning
 ShootSoundSecondary BF109_20mmShoot
