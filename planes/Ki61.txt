@@ -30,9 +30,9 @@ Drag 1.0
 //Lift 2.5
 //Wheels
 NumWheels 3
-WheelPosition 0 44,5 -2 -48,5
-WheelPosition 1 44,5 -2 48,5
-WheelPosition 2 -86,5 27 0
+WheelPosition 0 44,5 -7 -48,5
+WheelPosition 1 44,5 -7 48,5
+WheelPosition 2 -86,5 28 0
 WheelSpringStrength 0.125
 //Propeller Positions
 //Propeller <ID> <x> <y> <z> <planePart> <recipeItem>
