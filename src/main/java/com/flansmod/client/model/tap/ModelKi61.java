@@ -676,7 +676,7 @@ public class ModelKi61 extends ModelPlane //Same as Filename
 		leftWingModel[5].addShapeBox(0F, 0F, 0F, 24, 8, 117, 0F,1.05F, 8.4F, 0.7F, -14.7F, 7.9F, 0.7F, -0.3F, -2.35F, -0.3F, 0F, 0.1F, 0F, 1.05F, -13.3F, 1F, -14.7F, -14.15F, 0.9F, -0.3F, -1.55F, -0.3F, 0F, 0.2F, 0F); // Box 100
 		leftWingModel[5].setRotationPoint(-35F, -34.25F, -132F);
 
-		leftWingModel[6].addShapeBox(0F, 0F, 0F, 21, 5, 118, 0F,14.7F, 9.9F, -0.3F, -27.9F, 9F, -0.15F, -9.65F, -2.8F, -2.35F, 0.3F, -0.3F, -0.3F, 14.7F, -13.15F, -0.1F, -27.9F, -14F, -0.15F, -9.65F, -2.2F, -2.35F, 0.3F, -0.55F, -0.3F); // Box 101
+		leftWingModel[6].addShapeBox(0F, 0F, 0F, 21, 5, 118, 0F,14.7F, 9.9F, -0.3F, -27.9F, 9F, -0.15F, -9.65F, -2.8F, -2.35F, 0.3F, -0.35F, -0.3F, 14.7F, -13.15F, -0.1F, -27.9F, -14F, -0.15F, -9.65F, -2.2F, -2.35F, 0.3F, -0.55F, -0.3F); // Box 101
 		leftWingModel[6].setRotationPoint(-11F, -32.25F, -133F);
 
 		leftWingModel[7].addShapeBox(0F, 0F, 0F, 8, 2, 11, 0F,1.05F, 0.05F, -1.35F, -3.6F, -0.3F, -5.2F, 0.1F, -0.75F, 0.15F, -0.3F, 0.15F, 0.3F, 1.05F, -2.05F, -1.35F, -3.6F, -1.7F, -5.2F, 0.1F, -1.25F, 0.15F, -0.3F, -0.4F, 0.1F); // Box 102
@@ -733,7 +733,7 @@ public class ModelKi61 extends ModelPlane //Same as Filename
 		rightWingModel[6].addShapeBox(0F, 0F, 0F, 24, 8, 117, 0F,0F, 0.1F, 0F, -0.3F, -2.35F, -0.3F, -14.7F, 7.9F, 0.7F, 1.05F, 8.4F, 0.7F, 0F, 0.2F, 0F, -0.3F, -1.55F, -0.3F, -14.7F, -14.15F, 0.9F, 1.05F, -13.3F, 1F); // Box 87
 		rightWingModel[6].setRotationPoint(-35F, -34.25F, 15F);
 
-		rightWingModel[7].addShapeBox(0F, 0F, 0F, 21, 5, 118, 0F,0.3F, -0.3F, -0.3F, -9.65F, -2.8F, -2.35F, -27.9F, 9F, -0.15F, 14.7F, 9.9F, -0.3F, 0.3F, -0.55F, -0.3F, -9.65F, -2.2F, -2.35F, -27.9F, -14F, -0.15F, 14.7F, -13.15F, -0.1F); // Box 89
+		rightWingModel[7].addShapeBox(0F, 0F, 0F, 21, 5, 118, 0F,0.3F, -0.35F, -0.3F, -9.65F, -2.8F, -2.35F, -27.9F, 9F, -0.15F, 14.7F, 9.9F, -0.3F, 0.3F, -0.55F, -0.3F, -9.65F, -2.2F, -2.35F, -27.9F, -14F, -0.15F, 14.7F, -13.15F, -0.1F); // Box 89
 		rightWingModel[7].setRotationPoint(-11F, -32.25F, 15F);
 
 		rightWingModel[8].addShapeBox(0F, 0F, 0F, 2, 2, 8, 0F,-0.15F, -0.7F, 0.15F, 0.3F, 0.05F, 0.25F, 1.2F, -0.45F, -0.2F, -0.6F, -0.9F, -4.65F, 0.1F, -0.4F, 0F, 0.3F, 0.2F, 0F, 1.2F, -1.55F, -0.2F, -0.6F, -1.1F, -4.65F); // Box 90
