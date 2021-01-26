@@ -9,7 +9,6 @@ Texture Skin_Plane_Ki61
 CameraDistance 10.0
 //Resting Pitch. Set this so the plane spawns level. It will fall onto its collision boxes automatically, but this lets you start it flat
 RestingPitch 10.0
-ModelScale 1
 // ------------------------------------------------------ Movement ------------------------------------------------------
 //Mode : One of Plane, Heli or VTOL. The VTOL has a toggle button that switches some model aesthetics and the flight mode
 Mode Plane
@@ -37,7 +36,7 @@ WheelPosition 2 -86,5 28 0
 WheelSpringStrength 0.125
 //Propeller Positions
 //Propeller <ID> <x> <y> <z> <planePart> <recipeItem>
-Propeller 0 -94 -39 0 nose metalPropeller
+Propeller 0 -94 -39 0 core 44_Metal_Propeller
 // ------------------------------------------------------ Weaponry ------------------------------------------------------
 //Weapon types. Options are Missile, Bomb, Gun, Shell, None
 Primary Gun
@@ -82,26 +81,14 @@ ShootSoundSecondary BF109_20mmShoot
 //Each section of the plane may have many parts
 //The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
 //rightWing, nose, turret, coreWheel, core
-AddRecipeParts core 1 metalCockpit
-AddRecipeParts leftWingWheel 1 wheel
-AddRecipeParts rightWingWheel 1 wheel
-AddRecipeParts nose 2 44_50Cal 
-AddRecipeParts leftWing 1 44_20mmCannon 1 metalWingSmall
-AddRecipeParts rightWing 1 44_20mmCannon 1 metalWingSmall
-AddRecipeParts tail 1 metalTail
-AddRecipeParts tailWheel 1 wheel
+AddRecipeParts core 1 44_FighterAircraftBody 2 44_20mmCannon 2 44_50Cal
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
 AddDye 5 silver
 AddDye 3 gray
 // ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
-SetupPart core 100 -26 26 -11 80 37 23
-SetupPart nose 100 54 26 -11 52 29 23
-SetupPart tail 100 -107 27 -10 81 52 20
-SetupPart tailWheel 100 -89 26 -1,5 5 7 3
-SetupPart leftWing 100 -1 26 -144 56 18 133
-SetupPart rightWing 100 -1 26 12 56 18 133
-SetupPart leftWingWheel 100 37 -9 -51 15 35 4
-SetupPart rightWingWheel 100 37 -9 47 15 35 4
+SetupPart core 500 -107 20 -11 213 43 23
+SetupPart leftWing 250 -1 26 -144 56 18 133
+SetupPart rightWing 250 -1 26 12 56 18 133
 BulletDetection 10
 //Collision points for breaking wings etc. upon crashing
 CollisionPoint 66 52 0 core
