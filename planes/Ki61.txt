@@ -8,7 +8,8 @@ Texture Skin_Plane_Ki61
 //Third Person Camera Distance
 CameraDistance 10.0
 //Resting Pitch. Set this so the plane spawns level. It will fall onto its collision boxes automatically, but this lets you start it flat
-RestingPitch 15.0
+RestingPitch 10.0
+ModelScale 1
 // ------------------------------------------------------ Movement ------------------------------------------------------
 //Mode : One of Plane, Heli or VTOL. The VTOL has a toggle button that switches some model aesthetics and the flight mode
 Mode Plane
@@ -22,8 +23,8 @@ TurnRightSpeed 1.25
 LookUpSpeed 2.25
 LookDownSpeed 2.25
 //Roll modifiers
-RollLeftSpeed 2
-RollRightSpeed 2
+RollLeftSpeed 2.5
+RollRightSpeed 2.5
 //Drag 1.0 is standard. Modify to make the plane / heli more or less sluggish
 Drag 1.0
 //Lift
@@ -53,11 +54,11 @@ ModeSecondary FullAuto
 AlternatePrimary False
 AlternateSecondary False
 
-ShootPointPrimary 64 53,5 -4,5 nose 44_50Cal
-ShootPointPrimary 61 53,5 4,5 nose 44_50Cal
+ShootPointPrimary 64 53,5 -4,5 core 44_50Cal
+ShootPointPrimary 61 53,5 4,5 core 44_50Cal
 
-ShootPointSecondary 63 34,5 -54,5 leftWing
-ShootPointSecondary 63 34,5 54,5 rightWing
+ShootPointSecondary 63 34,5 -54,5 core
+ShootPointSecondary 63 34,5 54,5 core
 AddAmmo 44_20mmAircraftAmmo
 
 // ------------------------------------------------------ Inventory ------------------------------------------------------
@@ -103,10 +104,10 @@ SetupPart leftWingWheel 100 37 -9 -51 15 35 4
 SetupPart rightWingWheel 100 37 -9 47 15 35 4
 BulletDetection 10
 //Collision points for breaking wings etc. upon crashing
-CollisionPoint 66 52 0 nose
-CollisionPoint 24 37 64 rightWing
-CollisionPoint 24 37 -65 leftWing
-CollisionPoint -78 58 0 tail
+CollisionPoint 66 52 0 core
+CollisionPoint 24 37 64 core
+CollisionPoint 24 37 -65 core
+CollisionPoint -78 58 0 core
 IsExplosionWhenDestroyed true
 CollisionDamageEnable true
 CollisionDamageThrottle 2.0
