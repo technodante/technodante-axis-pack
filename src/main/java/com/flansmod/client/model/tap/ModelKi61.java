@@ -121,8 +121,8 @@ public class ModelKi61 extends ModelPlane //Same as Filename
 		bodyModel[73] = new ModelRendererTurbo(this, 281, 9, textureX, textureY); // Box 84
 		bodyModel[74] = new ModelRendererTurbo(this, 825, 89, textureX, textureY); // Box 85
 		bodyModel[75] = new ModelRendererTurbo(this, 273, 97, textureX, textureY); // Box 86
-		bodyModel[76] = new ModelRendererTurbo(this, 1017, 9, textureX, textureY); // Box 76
-		bodyModel[77] = new ModelRendererTurbo(this, 73, 1, textureX, textureY); // Box 77
+		bodyModel[76] = new ModelRendererTurbo(this, 1017, 9, textureX, textureY); // Box 87
+		bodyModel[77] = new ModelRendererTurbo(this, 73, 1, textureX, textureY); // Box 88
 		bodyModel[78] = new ModelRendererTurbo(this, 329, 113, textureX, textureY); // Box 78
 		bodyModel[79] = new ModelRendererTurbo(this, 937, 97, textureX, textureY); // Box 79
 		bodyModel[80] = new ModelRendererTurbo(this, 649, 105, textureX, textureY); // Box 81
@@ -216,7 +216,7 @@ public class ModelKi61 extends ModelPlane //Same as Filename
 		bodyModel[168] = new ModelRendererTurbo(this, 137, 41, textureX, textureY); // Box 192
 		bodyModel[169] = new ModelRendererTurbo(this, 977, 49, textureX, textureY); // Box 193
 		bodyModel[170] = new ModelRendererTurbo(this, 481, 81, textureX, textureY); // Box 194
-		bodyModel[171] = new ModelRendererTurbo(this, 297, 89, textureX, textureY); // Box 194
+		bodyModel[171] = new ModelRendererTurbo(this, 297, 89, textureX, textureY); // Box 195
 
 		bodyModel[0].addShapeBox(0F, 0F, 0F, 24, 6, 22, 0F,0F, 0.1F, 0F, 0.1F, 0.1F, -0.8F, 0.1F, 0.1F, -0.8F, 0F, 0.1F, 0F, 0F, 0F, 0F, 0.1F, 0F, -0.8F, 0.1F, 0F, -0.8F, 0F, 0F, 0F); // Box 0
 		bodyModel[0].setRotationPoint(-35F, -34.25F, -11F);
@@ -459,10 +459,10 @@ public class ModelKi61 extends ModelPlane //Same as Filename
 		bodyModel[75].addShapeBox(0F, 0F, 0F, 15, 8, 20, 0F,0F, 0.8F, -0.3F, -0.3F, 1.6F, -0.75F, -0.3F, 1.6F, -0.75F, 0F, 0.8F, -0.3F, 0F, -0.5F, -0.3F, -2.25F, -2.15F, -1.2F, -2.25F, -2.15F, -1.2F, 0F, -0.5F, -0.3F); // Box 86
 		bodyModel[75].setRotationPoint(6.1F, -28.3F, -10F);
 
-		bodyModel[76].addShapeBox(0F, 0F, 0F, 1, 18, 1, 0F,-0.2F, 0F, -0.35F, -0.2F, 0F, -0.35F, -0.2F, 0F, -0.35F, -0.2F, 0F, -0.35F, 0.2F, 0F, -0.2F, 0.2F, 0F, -0.2F, 0.2F, 0F, -0.2F, 0.2F, 0F, -0.2F); // Box 76
+		bodyModel[76].addShapeBox(0F, 0F, 0F, 1, 18, 1, 0F,-0.2F, 0F, -0.35F, -0.2F, 0F, -0.35F, -0.2F, 0F, -0.35F, -0.2F, 0F, -0.35F, 0.2F, 0F, -0.2F, 0.2F, 0F, -0.2F, 0.2F, 0F, -0.2F, 0.2F, 0F, -0.2F); // Box 87
 		bodyModel[76].setRotationPoint(8.15F, -77.5F, -0.5F);
 
-		bodyModel[77].addShapeBox(0F, 0F, 0F, 1, 2, 1, 0F,-0.5F, 0F, -0.45F, -0.2F, 0F, -0.45F, -0.2F, 0F, -0.45F, -0.5F, 0F, -0.45F, -0.1F, 0F, -0.45F, -0.2F, 0F, -0.45F, -0.2F, 0F, -0.45F, -0.1F, 0F, -0.45F); // Box 77
+		bodyModel[77].addShapeBox(0F, 0F, 0F, 1, 2, 1, 0F,-0.5F, 0F, -0.45F, -0.2F, 0F, -0.45F, -0.2F, 0F, -0.45F, -0.5F, 0F, -0.45F, -0.1F, 0F, -0.45F, -0.2F, 0F, -0.45F, -0.2F, 0F, -0.45F, -0.1F, 0F, -0.45F); // Box 88
 		bodyModel[77].setRotationPoint(89.85F, -76.9F, -0.5F);
 
 		bodyModel[78].addShapeBox(0F, 0F, 0F, 82, 1, 1, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.95F, 0F, 0F, -0.95F, 0F, -0.95F, 0F, 0F, -0.95F, 0F, 0F, -0.95F, -0.95F, 0F, -0.95F, -0.95F); // Box 78
@@ -746,7 +746,7 @@ public class ModelKi61 extends ModelPlane //Same as Filename
 		bodyModel[170].addShapeBox(0F, 0F, 0F, 11, 1, 1, 0F,0F, 0.22F, -0.45F, -0.7F, -0.17F, -0.3F, -0.7F, -0.5F, 0.2F, 0F, 0F, 0F, 0F, -0.9F, -0.45F, -0.7F, -0.53F, -0.3F, -0.7F, -0.15F, 0.2F, 0F, -0.65F, 0F); // Box 194
 		bodyModel[170].setRotationPoint(-25.75F, -61.15F, 2.65F);
 
-		bodyModel[171].addShapeBox(0F, 0F, 0F, 13, 1, 1, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F); // Box 194
+		bodyModel[171].addShapeBox(0F, 0F, 0F, 13, 1, 1, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F); // Box 195
 		bodyModel[171].setRotationPoint(-61.8F, -34.7F, -54.95F);
 	}
 
@@ -804,14 +804,14 @@ public class ModelKi61 extends ModelPlane //Same as Filename
 		leftWingWheelModel[5] = new ModelRendererTurbo(this, 249, 129, textureX, textureY); // Box 139
 		leftWingWheelModel[6] = new ModelRendererTurbo(this, 1009, 89, textureX, textureY); // Box 140
 
-		leftWingWheelModel[0].addShapeBox(0F, 0F, 0F, 6, 16, 1, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.95F, 0F, 0F, -0.95F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.95F, 0F, 0F, -0.95F); // Box 134
-		leftWingWheelModel[0].setRotationPoint(-49F, -32F, -51.05F);
+		leftWingWheelModel[0].addShapeBox(0F, 0F, 0F, 6, 16, 1, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F); // Box 134
+		leftWingWheelModel[0].setRotationPoint(-49F, -32F, -53.05F);
 
-		leftWingWheelModel[1].addShapeBox(0F, 0F, 0F, 11, 10, 1, 0F,0F, 0F, 0F, -5F, 0F, 0F, -5F, 0F, -0.95F, 0F, 0F, -0.95F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.95F, 0F, 0F, -0.95F); // Box 135
-		leftWingWheelModel[1].setRotationPoint(-49F, -16F, -51.05F);
+		leftWingWheelModel[1].addShapeBox(0F, 0F, 0F, 11, 10, 1, 0F,0F, 0F, 0F, -5F, 0F, 0F, -5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F); // Box 135
+		leftWingWheelModel[1].setRotationPoint(-49F, -16F, -53.05F);
 
-		leftWingWheelModel[2].addShapeBox(0F, 0F, 0F, 15, 10, 1, 0F,-3F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, -0.95F, -3F, 0F, -0.95F, -0.1F, 0F, 0F, 0.5F, -3.1F, 0F, 0.5F, -3.1F, -0.95F, -0.1F, 0F, -0.95F); // Box 136
-		leftWingWheelModel[2].setRotationPoint(-52F, -6F, -51.05F);
+		leftWingWheelModel[2].addShapeBox(0F, 0F, 0F, 15, 10, 1, 0F,-3F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, -3F, 0F, 0F, -0.1F, 0F, 0F, 0.5F, -3.1F, 0F, 0.5F, -3.1F, 0F, -0.1F, 0F, 0F); // Box 136
+		leftWingWheelModel[2].setRotationPoint(-52F, -6F, -53.05F);
 
 		leftWingWheelModel[3].addShapeBox(0F, 0F, 0F, 15, 5, 4, 0F,-5F, 0F, 0F, -5F, 0F, 0F, -5F, 0F, 0F, -5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F); // Box 137
 		leftWingWheelModel[3].setRotationPoint(-52F, -6F, -50.95F);
@@ -848,14 +848,14 @@ public class ModelKi61 extends ModelPlane //Same as Filename
 		rightWingWheelModel[3].addShapeBox(0F, 0F, 0F, 15, 5, 4, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -5F, 0F, 0F, -5F, 0F, 0F, -5F, 0F, 0F, -5F, 0F, 0F); // Box 144
 		rightWingWheelModel[3].setRotationPoint(-52F, 4F, 46.95F);
 
-		rightWingWheelModel[4].addShapeBox(0F, 0F, 0F, 15, 10, 1, 0F,-3F, 0F, -0.95F, -1F, 0F, -0.95F, -1F, 0F, 0F, -3F, 0F, 0F, -0.1F, 0F, -0.95F, 0.5F, -3.1F, -0.95F, 0.5F, -3.1F, 0F, -0.1F, 0F, 0F); // Box 145
-		rightWingWheelModel[4].setRotationPoint(-52F, -6F, 50.05F);
+		rightWingWheelModel[4].addShapeBox(0F, 0F, 0F, 15, 10, 1, 0F,-3F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, -3F, 0F, 0F, -0.1F, 0F, 0F, 0.5F, -3.1F, 0F, 0.5F, -3.1F, 0F, -0.1F, 0F, 0F); // Box 145
+		rightWingWheelModel[4].setRotationPoint(-52F, -6F, 52.05F);
 
-		rightWingWheelModel[5].addShapeBox(0F, 0F, 0F, 11, 10, 1, 0F,0F, 0F, -0.95F, -5F, 0F, -0.95F, -5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.95F, 0F, 0F, -0.95F, 0F, 0F, 0F, 0F, 0F, 0F); // Box 146
-		rightWingWheelModel[5].setRotationPoint(-49F, -16F, 50.05F);
+		rightWingWheelModel[5].addShapeBox(0F, 0F, 0F, 11, 10, 1, 0F,0F, 0F, 0F, -5F, 0F, 0F, -5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F); // Box 146
+		rightWingWheelModel[5].setRotationPoint(-49F, -16F, 52.05F);
 
-		rightWingWheelModel[6].addShapeBox(0F, 0F, 0F, 6, 16, 1, 0F,0F, 0F, -0.95F, 0F, 0F, -0.95F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.95F, 0F, 0F, -0.95F, 0F, 0F, 0F, 0F, 0F, 0F); // Box 147
-		rightWingWheelModel[6].setRotationPoint(-49F, -32F, 50.05F);
+		rightWingWheelModel[6].addShapeBox(0F, 0F, 0F, 6, 16, 1, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F); // Box 147
+		rightWingWheelModel[6].setRotationPoint(-49F, -32F, 52.05F);
 	}
 
 	private void initPropeller()
