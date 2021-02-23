@@ -3,7 +3,7 @@ Name Ki-61-I Hei Hien
 ShortName Ki61
 // ------------------------------------------------------ Visuals ------------------------------------------------------
 Icon Icon_Plane_Ki61
-Model tap.ModelKi61
+Model tap.Ki61
 Texture Skin_Plane_Ki61
 //Third Person Camera Distance
 CameraDistance 10.0
