@@ -8,32 +8,32 @@
 		"category" : "player",
 		"sounds" : [ "flansmod:BF109_20mmShoot" ]
 	},
-	
+
 	"DBengine": {
 		"category" : "player",
 		"sounds" : [ "flansmod:DBengine" ]
 	},
-	
+
 	"DBstart": {
 		"category" : "player",
 		"sounds" : [ "flansmod:DBstart" ]
 	},
-	
+
 	"Engine": {
 		"category" : "player",
 		"sounds" : [ "flansmod:Engine" ]
 	},
-	
+
 	"Mg34Reload": {
 		"category" : "player",
 		"sounds" : [ "flansmod:Mg34Reload" ]
 	},
-	
+
 	"Mk103": {
 		"category" : "player",
 		"sounds" : [ "flansmod:Mk103" ]
 	},
-	
+
 	"TankPlace": {
 		"category" : "player",
 		"sounds" : [ "flansmod:TankPlace" ]
