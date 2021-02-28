@@ -13,7 +13,7 @@ Recoil 1
 //Damage in half hearts
 Damage 2
 //The higher this value, the more the bullets spread
-Accuracy 7
+Accuracy 4
 //Time in ticks between rounds
 ShootDelay 3
 ShootSound AxisBrowning
