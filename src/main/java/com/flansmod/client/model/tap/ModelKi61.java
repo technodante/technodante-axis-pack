@@ -37,7 +37,7 @@ public class ModelKi61 extends ModelPlane //Same as Filename
 
 		initPropeller();
 
-		translateAll(0F, 0F, 0F);
+		translateAll(0F, 11F, 0F);
 
 
 		flipAll();
