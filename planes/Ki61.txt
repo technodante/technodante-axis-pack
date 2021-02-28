@@ -84,7 +84,7 @@ ShootSoundSecondary BF109_20mmShoot
 AddRecipeParts core 1 44_FighterAircraftBody 2 44_20mmCannon 2 Ho103
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
 AddDye 5 silver
-AddDye 3 gray
+AddDye 2 red
 // ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
 SetupPart core 500 -107 25 -11 213 27 23
 SetupPart leftWing 250 -1 15 -144 56 18 133
@@ -139,3 +139,5 @@ ShootParticlesSecondary flansmod.fmflame 0 0 0
 //advpaintjob Settings
 //Format is "advpaintjob iconName textureName requiredDyeAmount requiredDyeColour" Multiple colours may be listed in order, seperated by a space
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+
+advpaintjob China Icon_Plane_Ki61China Skin_Plane_Ki61China AddDye 3 green
