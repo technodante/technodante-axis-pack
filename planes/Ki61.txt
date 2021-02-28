@@ -8,7 +8,7 @@ Texture Skin_Plane_Ki61
 //Third Person Camera Distance
 CameraDistance 10.0
 //Resting Pitch. Set this so the plane spawns level. It will fall onto its collision boxes automatically, but this lets you start it flat
-RestingPitch 10.0
+RestingPitch 15.0
 // ------------------------------------------------------ Movement ------------------------------------------------------
 //Mode : One of Plane, Heli or VTOL. The VTOL has a toggle button that switches some model aesthetics and the flight mode
 Mode Plane
@@ -30,8 +30,8 @@ Drag 1.0
 Lift 2.5
 //Wheels
 NumWheels 3
-WheelPosition 0 44.5 -7 -48.5
-WheelPosition 1 44.5 -7 48.5
+WheelPosition 0 44.5 -11 -48.5
+WheelPosition 1 44.5 -11 48.5
 WheelPosition 2 -86.5 28 0
 WheelSpringStrength 0.125
 //Propeller Positions
@@ -68,7 +68,7 @@ AllowAllAmmo False
 //Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
 FuelTankSize 6000
 // ------------------------------------------------------ Passengers ------------------------------------------------------
-Pilot 17 39 0
+Pilot 17 29 0
 Passengers 0
 // ------------------------------------------------------ Sounds ------------------------------------------------------
 StartSound DBstart
@@ -86,7 +86,7 @@ AddRecipeParts core 1 44_FighterAircraftBody 2 44_20mmCannon 2 Ho103
 AddDye 5 silver
 AddDye 3 gray
 // ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
-SetupPart core 500 -107 20 -11 213 43 23
+SetupPart core 500 -107 36 -11 213 27 23
 SetupPart leftWing 250 -1 26 -144 56 18 133
 SetupPart rightWing 250 -1 26 12 56 18 133
 BulletDetection 10
@@ -107,18 +107,18 @@ ModelScale 1
 Description Japanese Fighter Aircraft__Uses Ho-103 Ammo / 20mm Aircraft Ammo__Year Introduced : 1944
 
 //1st gear change
-AddEmitter largesmoke 1 [50,18,12] [0,0,0] [0,1.5,0] 0.02 0.07 0 1 core
-AddEmitter flame 1 [50,18,12] [0,0,0] [0,2,0] 0.5 0.51 0 1 core
+AddEmitter largesmoke 1 [55,37,12] [0,0,0] [0,1.5,0] 0.02 0.07 0 1 core
+AddEmitter flame 1 [55,37,12] [0,0,0] [0,2,0] 0.5 0.51 0 1 core
 
-AddEmitter largesmoke 1 [50,18,-12] [0,0,0] [0,1.5,0] 0.02 0.07 0 1 core
-AddEmitter flame 1 [50,18,-12] [0,0,0] [0,2,0] 0.5 0.51 0 1 core
+AddEmitter largesmoke 1 [55,37,-12] [0,0,0] [0,1.5,0] 0.02 0.07 0 1 core
+AddEmitter flame 1 [55,37,-12] [0,0,0] [0,2,0] 0.5 0.51 0 1 core
 
 //1st gear
-AddEmitter explode 1 [50,18,12] [0,0,0] [0,0.2,0] 0.05 0.2 0 1 core
-AddEmitter flame 1 [50,18,12] [0,0,0] [0,2,0] 0.5 0.51 0 1 core
+AddEmitter explode 1 [55,37,12] [0,0,0] [0,0.2,0] 0.05 0.2 0 1 core
+AddEmitter flame 1 [55,37,12] [0,0,0] [0,2,0] 0.5 0.51 0 1 core
 
-AddEmitter explode 1 [50,18,-12] [0,0,0] [0,0.2,0] 0.05 0.2 0 1 core
-AddEmitter flame 1 [50,18,-12] [0,0,0] [0,2,0] 0.5 0.51 0 1 core
+AddEmitter explode 1 [55,37,-12] [0,0,0] [0,0.2,0] 0.05 0.2 0 1 core
+AddEmitter flame 1 [55,37,-12] [0,0,0] [0,2,0] 0.5 0.51 0 1 core
 
 
 ShootParticlesPrimary crit 0.4 0 0
