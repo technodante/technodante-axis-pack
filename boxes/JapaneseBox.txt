@@ -1,0 +1,22 @@
+Name Japanese Box
+ShortName JapaneseBox
+TopTexture CraftingBoxTop
+SideTexture CraftingBoxJapan
+BottomTexture CraftingBoxBottom
+GunBoxID 160
+Recipe B bowl I ingotIron W dyePowder.15 R dyePowder.1
+BBB
+WRW
+III
+
+//AddGun shortName amountOf item
+//AddAmmo must come immediately after AddGun for them to be in the same slot
+//The names of the items / blocks are those in the code, with some exceptions such as ingotIron (ingotingotIron) and gunpowder (sulphur)
+//And with parts from this mod, they are the shortName of the item
+//Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
+NumGuns 1
+//
+SetPage MGs
+
+AddGun Ho103 14 ingotIron
+AddAmmo Ho103Ammo 6 ingotIron 5 gunpowder
