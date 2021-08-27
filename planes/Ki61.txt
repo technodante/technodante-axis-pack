@@ -140,4 +140,4 @@ ShootParticlesSecondary flansmod.fmflame 0 0 0
 //Format is "advpaintjob iconName textureName requiredDyeAmount requiredDyeColour" Multiple colours may be listed in order, seperated by a space
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
 
-advpaintjob China Icon_Plane_Ki61China Skin_Plane_Ki61China AddDye 3 green
+advpaintjob China Icon_Plane_Ki61China Skin_Plane_Ki61China green 3
